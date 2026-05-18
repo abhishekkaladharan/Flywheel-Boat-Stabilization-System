@@ -24,7 +24,7 @@ The system detects boat tilt using an **MPU6050 IMU sensor** and controls a moto
 ```text
 Boat Tilt
     ↓
-MPU6050 detects angle + angular velocity
+BNO055 detects angle + angular velocity
     ↓
 Arduino Nano processes sensor data
     ↓
