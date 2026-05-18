@@ -44,7 +44,7 @@ Boat returns to stable position
 | Component                         | Description                   |
 | --------------------------------- | ----------------------------- |
 | Arduino Nano / ESP32              | Main controller               |
-| MPU6050                           | IMU sensor for tilt detection |
+| BNO055                            | IMU sensor for tilt detection |
 | NEMA23 Stepper Motor / BLDC Motor | Flywheel drive motor          |
 | TB6600 / DM542 / VESC             | Motor driver                  |
 | Flywheel                          | Generates stabilizing torque  |
@@ -92,7 +92,7 @@ Boat returns to stable position
 # Electronics Architecture
 
 ```text
-MPU6050
+BNO055
    │
 Arduino Nano / ESP32
    │
@@ -109,7 +109,7 @@ Flywheel
 
 ## MPU6050 → Arduino Nano
 
-| MPU6050 | Nano |
+| BNO055  | Nano |
 | ------- | ---- |
 | VCC     | 5V   |
 | GND     | GND  |
@@ -272,7 +272,7 @@ Modular design
 
 Install:
 
-* MPU6050 library
+* BNO055 library
 * Wire library
 
 ---
