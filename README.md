@@ -1,6 +1,6 @@
-# 🚤 Flywheel Boat Stabilization System
+# Flywheel Boat Stabilization System
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a **Reaction Wheel / Flywheel Based Boat Stabilization System** designed to reduce roll motion in small boats using a high-inertia flywheel and IMU-based feedback control.
 
@@ -8,7 +8,7 @@ The system detects boat tilt using an **MPU6050 IMU sensor** and controls a moto
 
 ---
 
-# 🎯 Objective
+# Objective
 
 * Reduce left-right rolling motion of the boat
 * Improve stability in water waves
@@ -17,9 +17,9 @@ The system detects boat tilt using an **MPU6050 IMU sensor** and controls a moto
 
 ---
 
-# ⚙️ Working Principle
+#  Working Principle
 
-## 🧠 System Flow
+## System Flow
 
 ```text
 Boat Tilt
@@ -39,7 +39,7 @@ Boat returns to stable position
 
 ---
 
-# 🛠️ Main Components
+# Main Components
 
 | Component                         | Description                   |
 | --------------------------------- | ----------------------------- |
@@ -53,7 +53,7 @@ Boat returns to stable position
 
 ---
 
-# 📐 Boat Dimensions
+# Boat Dimensions
 
 | Parameter        | Value  |
 | ---------------- | ------ |
@@ -65,7 +65,7 @@ Boat returns to stable position
 
 ---
 
-# ⚙️ Flywheel Design
+# Flywheel Design
 
 | Parameter      | Value                         |
 | -------------- | ----------------------------- |
@@ -78,7 +78,7 @@ Boat returns to stable position
 
 ---
 
-# 🧩 Mechanical Design
+# Mechanical Design
 
 ## Flywheel Features
 
@@ -89,7 +89,7 @@ Boat returns to stable position
 
 ---
 
-# ⚡ Electronics Architecture
+# Electronics Architecture
 
 ```text
 MPU6050
@@ -105,7 +105,7 @@ Flywheel
 
 ---
 
-# 🔌 Wiring Connections
+# Wiring Connections
 
 ## MPU6050 → Arduino Nano
 
@@ -129,7 +129,7 @@ Flywheel
 
 ---
 
-# ⚙️ Control Algorithm
+# Control Algorithm
 
 The system uses:
 
@@ -148,7 +148,7 @@ Where:
 
 ---
 
-# 🔧 Adjustable Parameters
+# Adjustable Parameters
 
 ```cpp
 float Kp = 6.0;
@@ -165,7 +165,7 @@ float RPM_SCALE = 5.5;
 
 ---
 
-# 🧠 Stability Tuning
+# Stability Tuning
 
 ## If response is slow
 
@@ -197,7 +197,7 @@ DEAD_ANGLE = 4.0;
 
 ---
 
-# ⚠️ Noise Reduction Techniques
+# Noise Reduction Techniques
 
 The MPU6050 may show unstable readings due to EMI and vibration from the motor.
 
@@ -213,7 +213,7 @@ The MPU6050 may show unstable readings due to EMI and vibration from the motor.
 
 ---
 
-# 📊 Buoyancy Calculation
+# Buoyancy Calculation
 
 Using Archimedes Principle:
 
@@ -241,20 +241,20 @@ Recommended safe load:
 
 ---
 
-# 🚀 Features
+# Features
 
-✅ Real-time stabilization
-✅ MPU6050 angle feedback
-✅ PD control algorithm
-✅ Adjustable RPM control
-✅ Flywheel-based stabilization
-✅ Water-wave response
-✅ Noise filtering
-✅ Modular design
+Real-time stabilization
+MPU6050 angle feedback
+PD control algorithm
+Adjustable RPM control
+Flywheel-based stabilization
+Water-wave response
+Noise filtering
+Modular design
 
 ---
 
-# 📈 Future Improvements
+# Future Improvements
 
 * Complementary/Kalman filtering
 * Closed-loop BLDC FOC control
@@ -266,7 +266,7 @@ Recommended safe load:
 
 ---
 
-# 🏗️ Software Requirements
+# Software Requirements
 
 ## Arduino Libraries
 
@@ -277,7 +277,7 @@ Install:
 
 ---
 
-# 📷 Project Applications
+# Project Applications
 
 * Marine stabilization
 * Research platform
@@ -288,7 +288,7 @@ Install:
 
 ---
 
-# 🏆 Project Outcome
+# Project Outcome
 
 The developed system successfully:
 
@@ -299,7 +299,7 @@ The developed system successfully:
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Abhishek Kaladharan**
 Embedded & Electronics Engineer
@@ -307,6 +307,6 @@ B.Tech Electronics and Communication Engineering
 
 ---
 
-# 📄 License
+# License
 
 This project is for educational and research purposes.
