@@ -4,7 +4,7 @@
 
 This project is a **Reaction Wheel / Flywheel Based Boat Stabilization System** designed to reduce roll motion in small boats using a high-inertia flywheel and IMU-based feedback control.
 
-The system detects boat tilt using an **MPU6050 IMU sensor** and controls a motor-driven flywheel to generate counter torque, stabilizing the boat against waves and disturbances.
+The system detects boat tilt using an **BNO055 IMU sensor** and controls a motor-driven flywheel to generate counter torque, stabilizing the boat against waves and disturbances.
 
 ---
 
